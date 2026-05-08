@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ege Media Publisher</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:Inter,Arial,sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(239,68,68,.25), transparent 30%),
+        linear-gradient(135deg,#050505 0%,#111111 45%,#1a0000 100%);
+      color:#f8fafc;
+      min-height:100vh;
+    }
+
+    header{
+      max-width:1200px;
+      margin:auto;
+      padding:28px 24px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .logo{
+      font-size:24px;
+      font-weight:800;
+      color:#ef4444;
+      letter-spacing:.5px;
+    }
+
+    nav a{
+      color:#d1d5db;
+      text-decoration:none;
+      margin-left:22px;
+      transition:.2s;
+    }
+
+    nav a:hover{
+      color:#ef4444;
+    }
+
+    .hero{
+      max-width:1200px;
+      margin:auto;
+      padding:90px 24px 70px;
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:50px;
+      align-items:center;
+    }
+
+    .badge{
+      display:inline-block;
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid rgba(239,68,68,.4);
+      background:rgba(127,29,29,.2);
+      color:#fca5a5;
+      margin-bottom:22px;
+      font-size:14px;
+    }
+
+    h1{
+      font-size:clamp(42px,6vw,74px);
+      line-height:1.02;
+      margin-bottom:24px;
+      letter-spacing:-2px;
+    }
+
+    .hero p{
+      color:#d1d5db;
+      font-size:20px;
+      line-height:1.8;
+      max-width:680px;
+    }
+
+    .actions{
+      margin-top:36px;
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      padding:15px 24px;
+      border-radius:14px;
+      text-decoration:none;
+      font-weight:700;
+    }
+
+    .btn-primary{
+      background:#dc2626;
+      color:white;
+      box-shadow:0 18px 40px rgba(220,38,38,.35);
+    }
+
+    .btn-secondary{
+      border:1px solid #3f3f46;
+      color:#e5e7eb;
+      background:rgba(24,24,27,.7);
+    }
+
+    .panel{
+      background:rgba(24,24,27,.82);
+      border:1px solid rgba(239,68,68,.15);
+      border-radius:28px;
+      padding:30px;
+      backdrop-filter:blur(12px);
+      box-shadow:0 25px 80px rgba(0,0,0,.4);
+    }
+
+    .step{
+      background:#111111;
+      border:1px solid #27272a;
+      border-radius:18px;
+      padding:18px;
+      margin-bottom:14px;
+    }
+
+    .step span{
+      color:#ef4444;
+      font-weight:800;
+      margin-right:8px;
+    }
+
+    .section{
+      max-width:1200px;
+      margin:auto;
+      padding:40px 24px 90px;
+    }
+
+    .section h2{
+      font-size:38px;
+      margin-bottom:18px;
+    }
+
+    .section-intro{
+      color:#d1d5db;
+      font-size:18px;
+      line-height:1.8;
+      max-width:820px;
+      margin-bottom:36px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:22px;
+    }
+
+    .card{
+      background:rgba(24,24,27,.82);
+      border:1px solid rgba(239,68,68,.12);
+      border-radius:24px;
+      padding:26px;
+    }
+
+    .card h3{
+      font-size:22px;
+      margin-bottom:12px;
+      color:#f87171;
+    }
+
+    .card p{
+      color:#d1d5db;
+      line-height:1.7;
+    }
+
+    footer{
+      border-top:1px solid rgba(255,255,255,.08);
+      padding:28px;
+      text-align:center;
+      color:#9ca3af;
+      font-size:14px;
+    }
+
+    @media(max-width:850px){
+
+      .hero{
+        grid-template-columns:1fr;
+        padding-top:55px;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      nav{
+        display:none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Ege Media Publisher</div>
+
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#workflow">Workflow</a>
+    <a href="/mediahub/privacy-ege.html">Privacy Policy</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+
+  <div>
+
+    <div class="badge">
+      Visual Media Automation Platform
+    </div>
+
+    <h1>
+      Powerful media publishing workflows for modern creators.
+    </h1>
+
+    <p>
+      Ege Media Publisher is a visual content publishing and media automation
+      application designed to help authenticated users organize, prepare,
+      and distribute image-based content securely across connected platforms.
+    </p>
+
+    <div class="actions">
+      <a href="#workflow" class="btn btn-primary">View Workflow</a>
+      <a href="/mediahub/privacy-ege.html" class="btn btn-secondary">Privacy Policy</a>
+    </div>
+
+  </div>
+
+  <div class="panel" id="workflow">
+
+    <div class="step">
+      <span>01</span>
+      Collect image-based media content
+    </div>
+
+    <div class="step">
+      <span>02</span>
+      Process descriptions and metadata
+    </div>
+
+    <div class="step">
+      <span>03</span>
+      Upload assets securely to cloud storage
+    </div>
+
+    <div class="step">
+      <span>04</span>
+      Publish media to connected publishing boards
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section" id="features">
+
+  <h2>Built for scalable media distribution</h2>
+
+  <p class="section-intro">
+    The platform helps creators and media publishers streamline publishing
+    operations through secure integrations, automated workflows,
+    and structured visual content management.
+  </p>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Content Publishing</h3>
+      <p>
+        Publish image-based media content efficiently through secure
+        API-powered workflows and connected publishing systems.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Workflow Automation</h3>
+      <p>
+        Automate repetitive publishing operations including media processing,
+        caption formatting, and content delivery.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Secure Integrations</h3>
+      <p>
+        All publishing operations are performed through authenticated
+        and authorized API integrations.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  © 2026 Ege Media Publisher. All rights reserved.
+</footer>
+
+</body>
+</html>
