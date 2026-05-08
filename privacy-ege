@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ege Media Publisher - Privacy Policy</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:Inter,Arial,sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(239,68,68,.18), transparent 28%),
+        linear-gradient(135deg,#050505 0%,#111111 45%,#1a0000 100%);
+      color:#f8fafc;
+      line-height:1.8;
+    }
+
+    .container{
+      max-width:900px;
+      margin:auto;
+      padding:70px 24px;
+    }
+
+    .card{
+      background:rgba(24,24,27,.82);
+      border:1px solid rgba(239,68,68,.14);
+      border-radius:28px;
+      padding:42px;
+      backdrop-filter:blur(12px);
+      box-shadow:0 25px 80px rgba(0,0,0,.35);
+    }
+
+    h1{
+      font-size:48px;
+      margin-bottom:14px;
+      color:#ef4444;
+      letter-spacing:-1px;
+    }
+
+    .updated{
+      color:#9ca3af;
+      margin-bottom:34px;
+      font-size:15px;
+    }
+
+    h2{
+      margin-top:34px;
+      margin-bottom:14px;
+      font-size:26px;
+      color:#f87171;
+    }
+
+    p{
+      color:#d1d5db;
+      margin-bottom:18px;
+      font-size:17px;
+    }
+
+    ul{
+      padding-left:20px;
+      color:#d1d5db;
+      margin-bottom:22px;
+    }
+
+    li{
+      margin-bottom:10px;
+    }
+
+    a{
+      color:#f87171;
+      text-decoration:none;
+    }
+
+    footer{
+      margin-top:42px;
+      padding-top:24px;
+      border-top:1px solid rgba(255,255,255,.08);
+      color:#9ca3af;
+      font-size:14px;
+    }
+
+    @media(max-width:700px){
+
+      h1{
+        font-size:38px;
+      }
+
+      .card{
+        padding:28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="card">
+
+    <h1>Privacy Policy</h1>
+
+    <div class="updated">
+      Last Updated: May 2026
+    </div>
+
+    <p>
+      Ege Media Publisher (“the Application”) respects user privacy and is committed
+      to protecting information processed through connected publishing services and APIs.
+    </p>
+
+    <h2>Information Collection</h2>
+
+    <p>
+      The Application may process limited account and media-related information
+      required to perform authorized publishing operations and workflow automation tasks.
+    </p>
+
+    <ul>
+      <li>Authorized account access tokens</li>
+      <li>Media asset URLs and image metadata</li>
+      <li>Publishing board identifiers</li>
+      <li>Workflow execution logs</li>
+    </ul>
+
+    <h2>How Information Is Used</h2>
+
+    <p>
+      Information is used exclusively for media publishing, workflow automation,
+      content organization, and secure API communication with connected services.
+    </p>
+
+    <h2>Data Security</h2>
+
+    <p>
+      The Application uses secure API authentication methods and authorized access
+      credentials to protect connected publishing operations and user data.
+    </p>
+
+    <h2>Third-Party Services</h2>
+
+    <p>
+      The Application may interact with third-party platforms including cloud storage,
+      publishing providers, and social media APIs for authorized content distribution.
+    </p>
+
+    <h2>Data Sharing</h2>
+
+    <p>
+      The Application does not sell or distribute personal information to unauthorized
+      third parties.
+    </p>
+
+    <h2>User Rights</h2>
+
+    <p>
+      Users may revoke connected application permissions at any time through the
+      settings of the associated third-party platform.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+      For privacy-related inquiries regarding Ege Media Publisher,
+      please contact the application administrator.
+    </p>
+
+    <footer>
+      © 2026 Ege Media Publisher. All rights reserved.
+    </footer>
+
+  </div>
+
+</div>
+
+</body>
+</html>
